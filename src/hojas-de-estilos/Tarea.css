@@ -30,3 +30,8 @@
   height: 50px;
   margin: 5px;
 }
+/* Tarea completada */
+.tarea-contenedor.completada{
+  background-color: rgb(226, 51, 174);
+  text-decoration: line-through;
+}
