@@ -1,7 +1,6 @@
 .tarea-contenedor {
   width: 100%;
   min-height: 65px;
-  background-color: #333;
   margin: 5px 0;
   padding: 8px 15px 8px 20px;
   display: flex;
@@ -14,16 +13,16 @@
 
 /* Colores */
 
-.tarea-contenedor:nth-child(3n + 1){
-  background-color: #d0db00;
+.tarea-contenedor:nth-child(3n + 3){
+  background-color: #013c2f;
 }
 
 .tarea-contenedor:nth-child(3n + 2){
-  background-color: #aaea00;
+  background-color: #003538;
 }
 
-.tarea-contenedor:nth-child(3n + 3){
-  background-color: #73f800;
+.tarea-contenedor:nth-child(3n + 1){
+  background-color: #002d41;
 }
 
 /* Texto */
@@ -47,6 +46,6 @@
 
 /* Tarea completada */
 .tarea-contenedor.completada{
-  background-color: rgb(226, 51, 174);
+  background-color: rgb(68, 53, 121);
   text-decoration: line-through;
 }
